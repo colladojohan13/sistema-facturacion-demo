@@ -1,0 +1,22 @@
+# Archivos locales y sensibles
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.sqlite3
+*.dump
+*.log
+credentials*
+secrets*
+
+# Entornos y herramientas
+.venv/
+venv/
+node_modules/
+__pycache__/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
